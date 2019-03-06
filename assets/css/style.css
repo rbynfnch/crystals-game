@@ -1,0 +1,45 @@
+#crystal-div {
+  background-color: white;
+  width: 80px;
+  height: 80px;
+}
+.crystal-image {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  padding-left: 15px;
+}
+
+.crystals {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  padding-left: 15px;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2,
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  font-size: 1em;
+}
+
+#container {
+  background-color: rgb(179, 178, 178);
+  width: 500px;
+}
+
+image.crystal-image {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  padding-left: 15px;
+}

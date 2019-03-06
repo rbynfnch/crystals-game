@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Crystal Collector</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel"stylesheet" type="type/css" href="assets/css/style.css">
+    <!-- rel"stylesheet" type="type/css" href="assets/css/reset.css"> -->
+  </head>
+  <body>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Crystals Collector!</h1>
+
+        <h2>How to play:</h2>
+        <p class="lead">
+          You will be give a random number at the start of the game.
+        </p>
+        <p class="lead">
+          There are four crystals below. By clicking on a crystal you will add a
+          specific amount of point to your total score.
+        </p>
+        <p class="lead">
+          You win the game by matching your total score to random number, you
+          lose the game if your total score goes above the random number.
+        </p>
+        <p class="lead">
+          The value of each crystal is hidden from you until you click on it.
+        </p>
+        <p class="lead">
+          Each time when the game starts, the game will change the values of
+          each crystal.
+        </p>
+      </div>
+    </div>
+    <div id="container">
+      <h3>Number to Guess: <span id="number-to-guess"></span></h3>
+      <h3>Total Score: <span id="total-score"></span></h3>
+      <div id="crystals"></div>
+
+      <!-- <div id="crystal-div"> -->
+      <!-- <div>
+          <img src ="assets/images/diamond.jpg" class="crystal-image" id="blue" alt
+          "Blue Crystal" width="80px"> <img src ="assets/images/emerald.jpg"
+          class="crystal-image" id="green" alt "Green Crystal" width="80px"> <img
+          src ="assets/images/ruby.jpg" class="crystal-image" id="red" alt "Red
+          Crystal" width="80px"> <img src ="assets/images/amnethyst.jpg"
+      class="crystal-image" id="purple" alt "Purple Crystal" width="80px">
+    </div> -->
+      <div span id="wins-losses">
+        <h3>Wins: <span id="wins"></span></h3>
+        <h3>Losses: <span id="losses"></span></h3>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+    ></script>
+    <script src="assets/javascript/game.js"></script>
+  </body>
+</html>
